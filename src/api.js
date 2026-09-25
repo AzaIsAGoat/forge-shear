@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://localhost:7226/api', 
+  baseURL: 'https://forgeandshearapi-apg3gcazgvb4f8fc.uaenorth-01.azurewebsites.net', 
   headers: {
     'Content-Type': 'application/json'
   }
